@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Calculator</title>
+    <script src="easyCalculator.js" defer></script>
+    <link rel="stylesheet" href="easyCalculator.css">
+</head>
+<body>
+    <h1 id="title"> Easy Calculator </h1>
+    <input type="text" id="numberOne" placeholder="Enter the 1. number">
+    <br>
+    <input type="text" id="numberTwo" placeholder="Enter the 2. number">
+    <br>
+    <select id="choose">
+        <option value="collection">+</option>
+        <option value="extraction">-</option>
+        <option value="divide">/</option>
+        <option value="impact">x</option>
+    </select>
+    <button id="answer" onclick="calculatorFunction()">Answer</button>
+    <input type="text" id="result" disabled>
+</body>
+</html>

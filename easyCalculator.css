@@ -1,0 +1,36 @@
+body{
+    background-color: #495C83;
+}
+
+#title{
+    text-align: center;
+    font-size: 10vh;
+    background-color: #08D9D6;
+    color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 100px;
+}
+input{
+    margin: 10px;
+    font-size: 5vh;
+    border-radius: 25px;
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+#choose{
+    margin: 10px;
+    font-size: 5vh;
+    border-radius: 25px;
+    background-color: #08D9D6;
+}
+#answer{
+    margin: 10px;
+    font-size: 5vh;
+    background-color: #71C9CE;
+}
+#result{
+    margin: 10px;
+    font-size: 5vh;
+}
